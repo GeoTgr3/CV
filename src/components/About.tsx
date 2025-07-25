@@ -40,7 +40,7 @@ const About = () => {
 
  <div className="flex justify-center items-center w-full">
   <img
-    src="/public/image.png"
+  src={import.meta.env.BASE_URL + "image.png"}
     alt="Developer workspace"
     className="w-full max-w-5xl mx-auto rounded-lg shadow-xl object-cover"
   />

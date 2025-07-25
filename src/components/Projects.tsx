@@ -6,7 +6,7 @@ const Projects = () => {
     title: "Profile4U",
     description: "A personal profile and portfolio web app built with ASP.NET, featuring user authentication, project showcase, and responsive design.",
     technologies: ["ASP.NET", "C#", "Bootstrap", "SQL Server"],
-    image: "/gg.png", // Make sure gg.png is in the public folder
+    image: import.meta.env.BASE_URL +"gg.png", // Make sure gg.png is in the public folder
     github: null,
     demo: "http://profile4u.runasp.net/"
   },
@@ -14,9 +14,9 @@ const Projects = () => {
     title: ".net web api",
     description: "bACKEND application for project ",
     technologies: ["ASP.NET Core MVC", "Entity Framework", "Identity"],
-    image: "/jj.png", // Make sure jj.png is in the public folder
+    image: import.meta.env.BASE_URL +"jj.png", // Make sure jj.png is in the public folder
     github: "https://github.com",
-    demo: "https://demo.com"
+    demo: "http://netWEBAPI.runasp.net/"
   }
 ];
 
